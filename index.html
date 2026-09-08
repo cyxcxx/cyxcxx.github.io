@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <title>个人主页</title>
+    <style>
+      .avatar {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+      }
+      .box {
+        width: 700px;
+        margin: 0 auto;
+        padding: 30px;
+        background: rgb(230, 250, 231);
+        border-radius: 15px;
+      }
+      hr {
+        border: none;
+        border-top: 2px dashed #e5e7eb;
+        margin: 18px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <img src="mao.jpg" alt="照片" class="avatar" />
+      <h3>陈雨欣</h3>
+      <p>专业：计算机科学与技术</p>
+    </div>
+    <hr />
+    <div class="box">
+      <h3>我的爱好</h3>
+      <ul>
+        <li>阅读小说</li>
+        <li>听歌</li>
+      </ul>
+    </div>
+    <hr />
+    <div class="box">
+      <h3>已学课程</h3>
+      <ul>
+        <li>C语言程序设计</li>
+        <li>C++面对对象的程序设计</li>
+        <li>计算机导论</li>
+      </ul>
+      <p>算法能力：<progress value="40" max="100"></progress> 40%</p>
+      <hr />
+      <h3>证书</h3>
+      <ul>
+        <li>第17届蓝桥杯全国大学生软件和信息技术大赛软件赛C/C++程序设计大学B组山东赛区三等奖</li>
+        <li>全国大学英语四级考试</li>
+      </ul>
+      <p draggable="true">
+        <img src="pdf.png" alt="PDF图标" width="20" />
+        <a href="paper.pdf" download>证书下载(PDF)</a>
+      </p>
+    </div>
+  </body>
+</html>
